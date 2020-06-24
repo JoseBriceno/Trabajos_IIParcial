@@ -68,6 +68,7 @@
 
             If TxtDireccion.Text = "" Then
                 MessageBox.Show("CAMPO VACIO")
+
             Else
                 direccion = TxtDireccion.Text
             End If
