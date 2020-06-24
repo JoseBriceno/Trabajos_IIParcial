@@ -32,6 +32,7 @@ Partial Class frmMenu
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnMenu = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.BTNFormBolsas = New System.Windows.Forms.Button()
         Me.PanelSuperior.SuspendLayout()
         Me.PanelLateral.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -113,6 +114,7 @@ Partial Class frmMenu
         'PanelLateral
         '
         Me.PanelLateral.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.PanelLateral.Controls.Add(Me.BTNFormBolsas)
         Me.PanelLateral.Controls.Add(Me.Label1)
         Me.PanelLateral.Controls.Add(Me.btnMenu)
         Me.PanelLateral.Controls.Add(Me.PictureBox1)
@@ -160,6 +162,15 @@ Partial Class frmMenu
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
+        'BTNFormBolsas
+        '
+        Me.BTNFormBolsas.Location = New System.Drawing.Point(34, 159)
+        Me.BTNFormBolsas.Name = "BTNFormBolsas"
+        Me.BTNFormBolsas.Size = New System.Drawing.Size(85, 39)
+        Me.BTNFormBolsas.TabIndex = 0
+        Me.BTNFormBolsas.Text = "BOLSAS SOLIDARIAS"
+        Me.BTNFormBolsas.UseVisualStyleBackColor = True
+        '
         'frmMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -189,4 +200,5 @@ Partial Class frmMenu
     Friend WithEvents Label1 As Label
     Friend WithEvents btnMenu As Button
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents BTNFormBolsas As Button
 End Class
